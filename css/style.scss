@@ -1,4 +1,5 @@
 html {font-size: 62.5%}
+
 h1, h2, h3, h4, h5, h6 {
 	text-shadow: 0 1px #333, 0 2px #333;
 }
@@ -47,10 +48,11 @@ p, li, label {font-size: 16px; font-size: 1.6rem}
 	color: #FEFEFE;
 
 }
-
+footer a {color: #1abc9c}
+footer a:hover {border-bottom: 2px solid #1abc9c; color: #1abc9c; text-decoration: none;}
 .btn-outline {
 	background: none;
-	border-color: #FEFEFE;
+	border: 1px solid #FEFEFE !important;
 	color: #FEFEFE;
 }
 
@@ -96,4 +98,6 @@ p, li, label {font-size: 16px; font-size: 1.6rem}
 /* Bootstrap Overrides */
 .btn {
 	border-radius: 0;
+	border-bottom: 3px solid rgba(0,0,0,0.25);
+	margin: auto 8px;
 }
