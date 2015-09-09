@@ -75,6 +75,11 @@ footer a:hover {border-bottom: 2px solid #1abc9c; color: #1abc9c; text-decoratio
 	text-shadow: 1px 1px $black;
 }
 
+.screenshots {
+	border: 2px solid #2c3e50;
+	border-bottom-width: 3px;
+}
+
 /* Bootstrap Overrides */
 .btn {
 	border-radius: 0;
