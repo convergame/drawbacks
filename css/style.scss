@@ -15,7 +15,7 @@ p, li, label {font-size: 16px; font-size: 1.6rem}
 }
 
 .bg:first-child {
-	padding: 64px 0 64px 0
+	padding: 16px 0 64px 0
 }
 .bg-green {
 	background: #2ecc71;
@@ -58,6 +58,34 @@ p, li, label {font-size: 16px; font-size: 1.6rem}
 	width:50%;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.monitor {
+	background: #34495e;
+	border-radius: 8px;
+	border: 3px solid #2c3e50;
+	padding: 32px 32px 0 32px;
+}
+
+.monitor-rocket {
+	color: #2c3e50;
+	font-size: 20px; font-size: 2.0rem;
+	margin: 0;
+	padding: 32px 0;
+}
+
+.monitor-stand {
+	background: #2c3e50;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	height: 128px;
+}
+
+.monitor-base {
+	border-radius: 8px;
+	background: #34495e;
+	border: 2px solid #2c3e50;
 }
 
 .rocket {
